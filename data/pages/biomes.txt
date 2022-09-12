@@ -1,0 +1,4 @@
+====== Biomes ======
+There are a few biomes that make up the world of [[start|Bleeding Heart]]. The main biome that makes up the majority of land mass is the regular Planes. This terrain can vary quite a bit itself, but is too general to be able to split into sub-biomes. it is usually hilly with dark green grass but can also be quite rocky, and sometimes changes altitude rapidly.
+
+[[Gart]]

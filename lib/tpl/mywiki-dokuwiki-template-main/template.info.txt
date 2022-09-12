@@ -1,0 +1,7 @@
+base     mywiki
+author   desbest
+email    afaninthehouse@gmail.com
+date     2021-01-13
+name     Mywiki Template
+desc     Designed by Faster Themes, converted by desbest
+url      https://www.dokuwiki.org/template:mywiki

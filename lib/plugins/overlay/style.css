@@ -1,0 +1,130 @@
+
+#overlay { 
+  display:none;
+  height:350px; 
+  width: 325px;
+  background-color:#fff;
+  position:relative;
+  top: 0px;
+  left:0px;
+  z-index:15;
+  overflow: auto; 
+  border: 1px solid black; 
+  font-size:11pt;
+  padding: 6px;
+  resize: both;
+  }
+
+
+#overlay div.inside,
+#overlay div.close{
+ background-color: #eee;
+ font-size: 10pt;
+ text-align: right;
+ padding-right: 6px;
+}
+
+#overlay div.inside {
+    padding-right: 0px;
+    width: 95%;
+    margin:  auto;
+    position: absolute;
+    bottom: 0;
+}  
+#overlay div.ovl-insert {
+    padding: 4px;
+}
+#overlay div.close a { 
+   padding-left: 4px; 
+ }
+#overlay div.close span.oltools-left { float: left; padding-left: 5px;}  /*tool left*/
+#overlay div.close span.oltools-right { float: left; padding-left: 14px;}  /*tool middle*/
+
+#overlay ul.idx {
+    padding-left: 0;
+}
+#overlay ul.idx {
+    padding-right: 0;
+}
+#overlay ul.idx li {
+    list-style-image: url(../../images/bullet.png);
+}
+#overlay ul.idx li.open {
+    list-style-image: url(../../images/open.png);
+}
+#overlay ul.idx li.closed {
+    list-style-image: url(../../images/closed.png);
+}
+#overlay ul.idx li.closed {
+    list-style-image: url(../../images/closed-rtl.png);
+}
+
+#overlay ul.idx li a.wikilink2 { color: __existing__ ; }
+
+/* mark  settings here as !important.  For instance,  color: green !important;   */
+button.overlaytools {}
+a.overlaytools {}
+
+#dokuwiki__pagetools ul li a.ovlpagetool {
+    background-position: right 0;
+}
+#dokuwiki__pagetools ul li a.ovlpagetool:before {
+    content: url(ovl_sprite.png);
+    margin-top: 0;
+}
+#dokuwiki__pagetools:hover ul li a.ovlpagetool,
+#dokuwiki__pagetools ul li a.ovlpagetool:focus,
+#dokuwiki__pagetools ul li a.ovlpagetool:active {
+    background-image: url(ovl_sprite.png);
+}
+#dokuwiki__pagetools ul li a.ovlpagetool:hover,
+#dokuwiki__pagetools ul li a.ovlpagetool:active,
+#dokuwiki__pagetools ul li a.ovlpagetool:focus {
+    background-position: right -45px;
+}
+
+.ui-resizable-helper { border: 2px dotted #00F; }
+
+
+span.ovltitle {
+  font-size:  9pt;
+  padding-left: 4px;
+  margin-left:6px; margin-right:4px;
+ }
+
+ #nwgrip, #negrip, #swgrip, #segrip, #ngrip, #egrip, #wgrip {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+#nwgrip {
+    left: -4px;
+    top: -4px;
+}
+#negrip{
+     top: -4px;
+     right: -4px;
+}
+#swgrip{
+    bottom: -3px;
+    left: -3px;
+}
+#segrip{
+     bottom: -3px;
+    right:-3px;
+}
+#ngrip{
+     top: -4px;
+    left:50%;
+}
+#wgrip{
+     left:-5px;
+     top:50%;
+}
+#egrip{
+     right:-5px;
+     top:50%;
+}
+
+

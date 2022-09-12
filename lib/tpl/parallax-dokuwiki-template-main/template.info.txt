@@ -1,0 +1,7 @@
+base     parallax
+author   desbest
+email    afaninthehouse@gmail.com
+date     2021-03-09
+name     Parallax Template
+desc     Designed by Cyberchimps, converted by desbest
+url      https://www.dokuwiki.org/template:ravel

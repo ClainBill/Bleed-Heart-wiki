@@ -1,0 +1,7 @@
+base     able
+author   desbest and 
+email    afaninthehouse@gmail.com
+date     2021-01-12
+name     Able theme
+desc     Designed by Automattic converted by desbest
+url      https://www.dokuwiki.org/template:able

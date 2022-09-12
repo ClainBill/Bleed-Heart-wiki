@@ -1,0 +1,64 @@
+/* desbest edit */
+.navbar-header a:link, .navbar-header a:visited { color: unset; }
+.toolbutton img { margin-bottom: 0px !important; }
+.toolbutton { margin: 8px 3px; padding: 8px; }
+footer #inner-footer { color: white; }
+.page li { display: block; }
+.attribution, .doc { float: none !important; }
+.breadcrumbs { font-size: 17px; }
+
+#writtensidebar a { padding: 0px; background-image: none; }
+#writtensidebar h1 /*.sidebar-heading*/ {
+	color: #fff;
+	position: relative;
+	margin: 0;
+	padding: 10px;
+	background: #048eb0;
+	border-radius: 3px;
+	font-size: 18px;
+}
+
+
+.navbar-brand {	line-height: 0.85em; }
+.input-group .form-control, #qsearch__in {
+	/*position: relative;*/
+	/*z-index: 2;*/
+	/*float: left;*/
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 0;
+}
+#dw__search { padding: 25px 15px; display: inline-block; width: 100%; }
+#dw__search button[type="submit"]{ display: none; }
+#dw__search input#qsearch__in { 
+	padding: 10px 5px 10px 30px; 
+	border-radius: 3px;
+	border: 1px #CCC solid;
+	font-size: 16px;
+ }
+
+.dokuwiki .secedit button {
+	font-size: 0.85em;
+}
+
+
+
+/* config manager */
+
+/*#config__manager fieldset { clear: both; }*/
+#config__manager table { border-collapse: revert; border-spacing: 0px 1.85em; }
+#config__manager tr { padding: 1em 0px; }
+#config__manager td.label span.outkey { font-size: 1.15em !important; }
+
+/* defined in /lib/plugin/config.style.css */
+#config__manager td input.edit {
+    width: 14em;
+}
+#config__manager td .input {
+    min-width: 14.8em;
+}
+#config__manager td select.edit { }
+#config__manager td textarea.edit {
+    width: 11.5em;
+    height: 4em;
+}
